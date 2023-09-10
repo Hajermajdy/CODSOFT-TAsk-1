@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+/* section 1 */
+.Home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.Home .nav{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+.Home .nav .logo{
+    width: 40px;
+    cursor: pointer;
+}
+.Home .nav ul{
+    display: flex;
+}
+.Home .nav li{
+    padding: 10px;
+    list-style: none;
+}
+.Home .nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+.Home .nav li a:hover{
+    border-bottom: 2px rgb(112, 103, 103) solid;
+    color: rgb(192, 179, 179);
+}
+.Home .content{
+    width: 100%;
+    height: 18%;
+    top: 40%; 
+    position: absolute; 
+    text-align: center;
+    background-color: rgba(227, 185, 148, 0.881);
+    padding: 20px;
+}
+.Home .content .btn{
+    margin: 16px;
+    border: 1px solid rgb(82, 73, 73);
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* section 1 */
+
+/* section 2 */
+.about{
+    width: 100%;
+    height: 40vh;
+    background-color: #F3DEBA;
+    position: relative;
+}
+.about h3{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.about p{
+    width: 70%;
+    position: absolute;
+    top: 40%;
+    left: 19%;
+}
+
+/* section 2 */
+
+/* section 3 */
+.design{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/background1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.design .cards{
+    width: 90%;
+    height: 100vh;
+    background-color: rgba(250, 235, 215, 0.601);
+    position: absolute;
+    left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.design .cards .card{
+    width: 30%;
+    height: 29%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    top: 8%;
+    left: 2%;
+}
+.design .cards .card .image img{
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 120px;
+    border-radius: 10%;
+    position: absolute;
+    left: 70px;
+    top: -16%;
+}
+.design .cards .card .image img:hover{
+    width: 200px;
+    height: 170px;
+    z-index: 1;
+    position: absolute;
+    left: 50px;
+    top: -10%;
+    box-shadow: rgba(0, 0, 0, 0.19) 10px 20px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.design .cards .card .namedesigner{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    font-size: 20px;
+}
+/* section 3 */
+
+/* section 4 */
+.feedback{
+    height: 100vh;
+    background-color: #F3DEBA;
+}
+.feedback h3{
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    padding-top: 3%;
+    font-size: 30px;
+}
+.feedback .data{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+
+}
+.feedback .data .facebock,
+.feedback .data .instegram{
+    height: 80%;
+    width: 45%;
+    border-radius: 50px;
+    margin: 25px;
+    position: relative;
+}
+.feedback .data .facebock{
+    border: 3px solid rgb(30, 30, 145);
+}
+.feedback .data .facebock .logo img,
+.feedback .data .instegram .logo img{
+    width: 9%; 
+    height: 12%;
+    position: absolute;
+    left: 50%;
+    top: -5%;
+}
+.feedback .data .instegram{
+    background:linear-gradient(#F3DEBA,#F3DEBA) padding-box,      
+              linear-gradient(purple,red, orange) border-box;
+    border: 3px solid transparent;
+    border-radius: 50px;
+}
+.feedback .data .facebock .contant,
+.feedback .data .instegram .contant{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 5%; 
+    height: 90%;
+}
+.feedback .data .facebock .info,
+.feedback .data .instegram .info{
+    background-color: #ffffff98;
+    width: 40%;
+    height: 30%;
+    border-radius: 15px;
+    margin: 26px;
+}
+.feedback .facebock .info .infoptofile,
+.feedback .instegram .info .infoptofile{
+    display: flex;
+    padding: 10px;
+
+}
+.feedback .facebock .info .infoptofile img,
+.feedback .instegram .info .infoptofile img{
+    width: 10%;
+    margin-right: 10px;
+}
+
+.feedback .facebock .contant .info .fb,
+.feedback .instegram .contant .info .fb{
+    padding: 5%;
+}
+/* section 4 */
+
+/* section 5 */
+
+.contact{
+    width: 100%;
+    height: 80vh;
+    background-color: #bda282;
+    text-align: center;
+}
+.contact h3{
+    font-size: 40px;
+    padding-top: 6%;
+}
+.contact .info{
+    display: flex;
+}
+.contact .info .phone,
+.contact .info .chat{
+    width: 40%;
+    height: 80%;
+    margin: 5%;
+}
+
+.contact .info .phone .logo img,
+.contact .info .chat .logo img{
+    width: 13%;
+    height: 20%;
+    padding-bottom: 5%;
+}
+.contact .info .phone p,
+.contact .info .chat p{
+    padding-bottom: 3%;
+}
+.contact .info .phone .num{
+    padding-top: 3%;
+    color: rgb(54, 51, 51);
+    font-size: 20px;
+}
+
+.contact .info .chat button{
+    margin-top: 4%;
+    border: none;
+    padding: 3%;
+    cursor: pointer;
+}
+/* section 5 */
